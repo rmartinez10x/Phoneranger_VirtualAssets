@@ -1,0 +1,5 @@
+<proxyConfiguration xmlVersion="5" productVersion="0">
+ <ProxyConfiguration className="com.parasoft.stub.proxy.ProxyConfiguration" version="1.2.2">
+  <id>69cc1ff6-c704-4f41-85e3-b08d0feca2bb-1652139146990</id>
+ </ProxyConfiguration>
+</proxyConfiguration>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<isomsg>
+<field id="1" value="16" type="binary"/>
+<field id="2" value="01" type="binary"/>
+<field id="3" value="02" type="binary"/>
+<field id="4" value="0034" type="binary"/>
+<field id="5" value="011001" type="binary"/>
+<field id="6" value="000000" type="binary"/>
+<field id="7" value="00" type="binary"/>
+<field id="8" value="0000" type="binary"/>
+<field id="9" value="000000" type="binary"/>
+<field id="10" value="00" type="binary"/>
+<field id="11" value="000000" type="binary"/>
+<field id="12" value="00" type="binary"/>
+<field id="13" value="0810" type="binary"/>
+<field id="14" value="8220000002000000" type="binary"/>
+<field id="15" value="0400000000000000" type="binary"/>
+<field id="16" value="0219152432" type="binary"/>
+<field id="17" value="002002" type="binary"/>
+<field id="18" value="F0F0" type="binary"/>
+<field id="19" value="0001" type="binary"/>
+</isomsg>

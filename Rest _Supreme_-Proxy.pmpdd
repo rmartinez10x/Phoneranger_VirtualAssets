@@ -1,0 +1,30 @@
+<proxyConfiguration xmlVersion="5" productVersion="0">
+ <ProxyConfiguration className="com.parasoft.stub.proxy.ProxyConfiguration" version="1.2.2">
+  <id>f91bdf48-37c6-42b4-a5f0-43335b96335a-1583173236655</id>
+  <enabled>false</enabled>
+  <proxyCount>1</proxyCount>
+  <HttpProxyConnection className="com.parasoft.stub.proxy.HttpProxyConnection" version="1.10.4">
+   <file>recorded_traffic/Rest_(Supreme)_%d_%t.txt</file>
+   <host>null</host>
+   <port>80</port>
+   <recordSecondaryTarget>false</recordSecondaryTarget>
+   <listenPath>/REST</listenPath>
+   <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.2">
+    <keystore>null</keystore>
+    <keystoreType>PKCS12</keystoreType>
+    <truststore>null</truststore>
+    <truststoreType>PKCS12</truststoreType>
+    <forwardPath>/REST</forwardPath>
+    <host>10.1.24.98</host>
+    <port>9080</port>
+   </HttpProxyTargetConnection>
+   <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.2">
+    <keystore>null</keystore>
+    <keystoreType>PKCS12</keystoreType>
+    <truststore>null</truststore>
+    <truststoreType>PKCS12</truststoreType>
+    <port>80</port>
+   </HttpProxyTargetConnection>
+  </HttpProxyConnection>
+ </ProxyConfiguration>
+</proxyConfiguration>

@@ -1,0 +1,42 @@
+<proxyConfiguration xmlVersion="5" productVersion="0">
+ <ProxyConfiguration className="com.parasoft.stub.proxy.ProxyConfiguration" version="1.2.2">
+  <id>a2f3fc70-f74c-4c03-9b0a-87195d32b387-1586818720738</id>
+  <enabled>false</enabled>
+  <proxyCount>1</proxyCount>
+  <HttpProxyConnection className="com.parasoft.stub.proxy.HttpProxyConnection" version="1.10.4">
+   <file>recorded_traffic/admin_%d_%t.txt</file>
+   <host>null</host>
+   <port>80</port>
+   <recordSecondaryTarget>false</recordSecondaryTarget>
+   <listenPath>/proxy/admin</listenPath>
+   <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.2">
+    <kerberosServicePrincipal>null</kerberosServicePrincipal>
+    <ntlmUsername>null</ntlmUsername>
+    <ntlmPassword>AA==</ntlmPassword>
+    <keystoreAlias>null</keystoreAlias>
+    <keystore>null</keystore>
+    <keystorePass>AA==</keystorePass>
+    <keystoreType>PKCS12</keystoreType>
+    <truststore>null</truststore>
+    <truststorePass>AA==</truststorePass>
+    <truststoreType>PKCS12</truststoreType>
+    <forwardPath>/admin</forwardPath>
+    <host>localhost</host>
+    <port>9080</port>
+   </HttpProxyTargetConnection>
+   <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.2">
+    <kerberosServicePrincipal>null</kerberosServicePrincipal>
+    <ntlmUsername>null</ntlmUsername>
+    <ntlmPassword>AA==</ntlmPassword>
+    <keystoreAlias>null</keystoreAlias>
+    <keystore>null</keystore>
+    <keystorePass>AA==</keystorePass>
+    <keystoreType>PKCS12</keystoreType>
+    <truststore>null</truststore>
+    <truststorePass>AA==</truststorePass>
+    <truststoreType>PKCS12</truststoreType>
+    <port>80</port>
+   </HttpProxyTargetConnection>
+  </HttpProxyConnection>
+ </ProxyConfiguration>
+</proxyConfiguration>
